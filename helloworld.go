@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var a int = 1
-var b int = 2
+var a float64 = 1.0
+var b float64 = 2.0
 
 const (
 	x  = 'a'  //97
@@ -24,5 +24,5 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(z)
 	fmt.Println(z1)
-	fmt.Println(zz)
+	fmt.Println(a == b)
 }
