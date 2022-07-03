@@ -3,6 +3,7 @@ package main
 
 import (
 	"class1/trans"
+	"class2"
 	"fmt"
 	"time"
 )
@@ -47,6 +48,11 @@ func main() {
 	fmt.Println(time.Now())
 	fmt.Println("###############################################")
 	trans.BreakContinue()
+	fmt.Println("###############################################")
+	trans.MuiltReturn()
+	fmt.Println("###############################################")
+	class2.ParameterMulti()
+
 }
 func f1() {
 	a := 4
