@@ -44,6 +44,6 @@ func Defer() {
 	println(c)
 	println(d)
 }
-func add_to_num(x int, y int) (r int) {
+func Add_to_num(x int, y int) (r int) {
 	return x + y
 }
