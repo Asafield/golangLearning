@@ -19,9 +19,8 @@ func ParameterMulti() {
 		fmt.Println("The results is : ", result)
 	}
 	fmt.Println("---------------------------------------")
-	printTen(10)
+	//printTen(10)
 	fmt.Println("---------------------------------------")
-	fmt.Println(multiNum(5))
 }
 func min(s ...int) int {
 	if len(s) == 0 {
@@ -37,11 +36,11 @@ func min(s ...int) int {
 }
 
 func defera() (v int) {
-	//i := 0
+	i := 0
 	defer func() {
-		fmt.Println(v)
+		fmt.Println("the defer value is: ", i)
 	}()
-	//i = 4
+	i = 4
 	return 4
 }
 
