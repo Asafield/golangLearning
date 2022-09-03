@@ -1,4 +1,4 @@
-module learningGolang
+module github.comn/Asafield/learningGolang
 
 go 1.18
 
